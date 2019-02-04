@@ -1,34 +1,48 @@
-#nicole{
-    background-color: brown;
+body{
+    font-weight: bold;
+    background-image: url("../assets/images/Trains.jpg");
 }
-#header{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;
+label{
+    font-weight: bold;
 }
-#add{
-    padding:15px;
-    background-color: white;
-    color:rgb(25,25,175);
-    border-radius: 100px;
-}
-#headertt{
-    background-color:rgb(25, 25, 175);
-    padding:20px;
-    border-radius: 40px;
-    max-width: 90%;
-    margin:30px;
-    
-}
-#traintracker{
-    border-radius: 40px;
+#backgroundcd{
+    background-color:orange;
 
 }
-#addTrain{
-    background-color:darkgreen;
-    border-radius: 40px;
+.space{
+    background-color:red;
+    max-width: 980px;
 }
-#title2{
-    padding:10px;
-    background-color:blue;
+.headertt{
+    padding:20px;
+    background-color: orange;
+}
+#traintime{
+    color:darkblue;
+    padding: 20px;
+}
+.labels{
+    background-color:orange;
+    border-radius: 5px;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.tablehd{
+    max-width: 980px;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 10px;
+    color:white;
+    border-color: orange;
+}
+
+#submit1{
+    color:white;
+    font-weight: bold;
+}
+.form-group{
+    margin:0px;
 }
