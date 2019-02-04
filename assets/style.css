@@ -1,42 +1,46 @@
 body{
     font-weight: bold;
-    background-image: url("../assets/images/Trains.jpg");
+    font-family: 'Fredoka One', cursive;
+    background-image: url("../assets/images/happytrain.PNG");
 }
 label{
     font-weight: bold;
 }
-#backgroundcd{
-    background-color:orange;
-
-}
 .space{
     background-color:red;
-    max-width: 980px;
+    border-radius: 20px;
+}
+#trainTable{
+    padding:20px;
+    background-image: url("../assets/images/Trains.jpg");
+
 }
 .headertt{
     padding:20px;
-    background-color: orange;
+    background-color: cornflowerblue;
 }
 #traintime{
-    color:darkblue;
+    color:red;
     padding: 20px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
 }
 .labels{
-    background-color:orange;
-    border-radius: 5px;
+    background-color:cornflowerblue;
     text-align:center;
     color: white;
     font-weight: bold;
+    padding-bottom: 2px;
 
 }
 
 .tablehd{
-    max-width: 980px;
-    border-width: thick;
+    max-width: 900px;
+    border-width: 20px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 0px;
     color:white;
-    border-color: orange;
+    border-color: cornflowerblue;
 }
 
 #submit1{
